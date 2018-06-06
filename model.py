@@ -20,16 +20,6 @@ w = 224
 h = 224
 c = 3
 
-# train_0_path = 'E:/CK_4class/CK/ck_surprise/train/0/'
-# train_1_path = 'E:/CK_4class/CK/ck_surprise/train/1/'
-# train_2_path = 'E:/CK_4class/CK/ck_surprise/train/2/'
-# train_3_path = 'E:/CK_4class/CK/ck_surprise/train/3/'
-#
-# test_0_path = 'E:/CK_4class/CK/ck_surprise/test/0/'
-# test_1_path = 'E:/CK_4class/CK/ck_surprise/test/1/'
-# test_2_path = 'E:/CK_4class/CK/ck_surprise/test/2/'
-# test_3_path = 'E:/CK_4class/CK/ck_surprise/test/3/'
-
 tr_path = 'E:/CK_4class/CK_new/angry/train/'
 te_path = 'E:/CK_4class/CK_new/angry/test/'
 
@@ -163,16 +153,7 @@ teX0, teX1, teY = read_img1(te_path)
 # teX0 = teX0[arr]
 # teX1 = teX1[arr]
 # teY = teY[arr]
-# tr0X = tr0X.reshape(-1, 224, 224, 3)
-# tr1X = tr1X.reshape(-1, 224, 224, 3)
-# tr2X = tr2X.reshape(-1, 224, 224, 3)
-# tr3X = tr3X.reshape(-1, 224, 224, 3)
 
-# te0X = te0X.reshape(-1, 224, 224, 3)
-# te1X = te1X.reshape(-1, 224, 224, 3)
-# te2X = te2X.reshape(-1, 224, 224, 3)
-# te3X = te3X.reshape(-1, 224, 224, 3)
-# teX = teX.reshape(-1, 224, 224, 3)
 
 trX0 = trX0.reshape(-1, 224, 224, 3)
 trX1 = trX1.reshape(-1, 224, 224, 3)
